@@ -1,0 +1,12 @@
+.content {
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 724px) {
+    width: calc(100% - 16px);
+  }
+}

@@ -1,0 +1,24 @@
+@import "./../../assets/colors";
+
+.add {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+
+  &__button {
+    margin-left: 8px;
+    background-color: $purple;
+    color: $light;
+    padding: 6px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  &__input {
+    background-color: transparent;
+    border: 1px solid $purple;
+    border-radius: 4px;
+    outline: none;
+    padding: 0px 8px;
+  }
+}
